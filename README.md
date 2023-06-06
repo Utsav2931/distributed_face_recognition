@@ -1,4 +1,4 @@
-# Distributed face recognition
+# Distributed Face Recognition
 **In the *Front_End* folder make sure you install required node packages with ``` npm install ```**
 
 Then go to the *Front_End/React* and start the react app with ``` npm start ```
