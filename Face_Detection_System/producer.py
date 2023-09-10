@@ -101,7 +101,8 @@ def on_client_message(ch, method, properties, body):
 
     #Merging all the frames into one video
     fourcc = cv2.VideoWriter_fourcc(*"H264")
-    output_file = "C:\\Users\HP\\OneDrive\\Desktop\\Video Upload\\video_upload\\src\\assets\\output_video.mp4"
+    #Path to store the file
+    output_file = ""
     image = cv2.imread('.\\mesh\\mesh_1.jpg')
     height, width = image.shape[:2]
     video_writer = cv2.VideoWriter(output_file, fourcc, 30, (width, height))
